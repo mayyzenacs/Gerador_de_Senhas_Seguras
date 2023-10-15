@@ -1,4 +1,5 @@
 import mod.source as source #importa as funções que estão na pasta mod
+from time import sleep #modulo que contém timer
 
 source.tamanhoSenha("Tamanho da senha: ") #chama a função que cria o input para ler o tamanho da senha
 
@@ -14,11 +15,12 @@ while True: #while de verificação de dados
     escolha_numeros = input("Numeros? ").lower().strip()[0] #deixa em minusculo e pega apenas a primeira letra
     if escolha_numeros in "sn": #verifica se a escolha está correta
         break #se sim para o loop
-    else: #senao printa um erro
+    else: #senão printa um erro
         print("INVÁLIDO. Responda apenas SIM ou NÃO (S,N).")
 
 source.linha() #chama função de linha
 print(f"Sua senha foi criada: ") 
+sleep(0.5)
 print(" ----->")
 senha = source.escolhaEspecial(escolha_caracter, escolha_numeros) #cria uma variavel que recebe o retorno da função escolhaEspecial ou seja a senha.
 print(f"    {senha}") #printa a variavel com resultado da senha

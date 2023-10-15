@@ -20,8 +20,8 @@ def tamanhoSenha(enter): #função que vai ler o tamanho da senha
             print("Digite um número INTEIRO válido.") 
 
 
-def geradorAleatorio(rando=string.ascii_letters + string.digits + string.punctuation): #função que cria uma senha de letras aleatorias com numeros e simbolos
-    return "".join(choice(rando) for tamanho in range(tam)) #retorna a junção dos dados acima num tamanho de tam(tamanho da senha escolhido)
+def geradorAleatorio(rando=string.ascii_letters + string.digits + string.punctuation): #função que cria uma senha de letras aleatorias com numeros e símbolos
+    return "".join(choice(rando) for tamanho in range(tam)) #retorna a junção dos dados acima num tamanho de tam(tamanho da senha escolhido
 
 def geradorSoLetras(rando=string.ascii_letters): #função que cria uma senha apenas com letras
     return "".join(choice(rando) for tamanho in range(tam)) #retorna a junção dos dados acima num tamanho de tam(tamanho da senha escolhido)
@@ -29,7 +29,7 @@ def geradorSoLetras(rando=string.ascii_letters): #função que cria uma senha ap
 def geradorNumLetra(rando=string.digits + string.ascii_letters): #função que cria uma senha apenas com numeros e letras
     return "".join(choice(rando) for tamanho in range(tam)) #retorna a junção dos dados acima num tamanho de tam(tamanho da senha escolhido)
 
-def geradorLetraSimbol(rando=string.ascii_letters + string.punctuation): #função que cria uma senha apeans letras e simbolos
+def geradorLetraSimbol(rando=string.ascii_letters + string.punctuation): #função que cria uma senha apeans letras e símbolos
     return "".join(choice(rando) for tamanho in range(tam)) #retorna a junção dos dados acima num tamanho de tam(tamanho da senha escolhido)
 
 

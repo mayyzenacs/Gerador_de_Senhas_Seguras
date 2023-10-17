@@ -7,7 +7,7 @@
 
 - Clone este repositório no seu computador
     - Abra o repositório em algum editor de código-fonte
-    - Rode o script no terminal com 'python gerador.py'
+    - Rode o script no terminal com `python gerador.py`
 
 - Escolha o tamanho e opção de caracteres 
     - Sua senha será gerada no final

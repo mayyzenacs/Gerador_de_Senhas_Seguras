@@ -6,8 +6,8 @@
  # Como Usar
 
 - Clone este repositório no seu computador
-    - Abra algum editor de código-fonte e abra o repositório
-    - Rode o script python
+    - Abra o repositório em algum editor de código-fonte
+    - Rode o script no terminal com 'python gerador.py'
 
-- Escolha o tamanho, opção de caracteres 
+- Escolha o tamanho e opção de caracteres 
     - Sua senha será gerada no final
